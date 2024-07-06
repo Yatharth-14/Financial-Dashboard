@@ -65,7 +65,6 @@ const Dashboard = () => {
       gridTemplateRows: "80px",
     }}>
       
-      
       <Row1></Row1>
       <Row2></Row2>
       <Row3></Row3>
