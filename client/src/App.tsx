@@ -13,7 +13,7 @@ function App() {
       <div className="app">
        <BrowserRouter>
         <ThemeProvider theme={theme}>
-          <CssBaseline></CssBaseline>
+          <CssBaseline></CssBaseline> 
           <Box width="100%" height="100%" padding="1rem 2rem 4rem 2rem">
             <Navbar></Navbar>
             <Routes>
