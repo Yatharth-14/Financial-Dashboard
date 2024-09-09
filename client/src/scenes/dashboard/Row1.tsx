@@ -13,9 +13,7 @@ import {
 }
   from "recharts";
 
-type Props = {};
-
-const Row1 = (props: Props) => {
+const Row1 = () => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();
   console.log('data:', data);
@@ -35,8 +33,11 @@ const Row1 = (props: Props) => {
   return (
     <>
       <DashboardBox gridArea="a">
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer width="100%" height="100%">
           <AreaChart
+            
+            width={500}
+            height={400}
             data={revenueExpenses}
             margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
           >
