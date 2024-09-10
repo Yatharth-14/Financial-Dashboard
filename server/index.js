@@ -13,6 +13,7 @@ import Product from './models/Product.js';
 
 /* CONFIGURATIONS */
 dotenv.config();
+// console.log('MongoDB URL:', process.env.MONGO_URL);
 const app = express();
 app.use(express.json());
 app.use(helmet());
